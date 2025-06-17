@@ -12,16 +12,45 @@ namespace Project_VP
 {
     public partial class Form1: Form
     {
+        Scene scene;
+        Question q;
         public Form1()
         {
             InitializeComponent();
             DoubleBuffered = true;
-            Scene scene = new Scene();
+            scene = new Scene();
+            scene.Set(prizeList, progressBarQuestion, timerQuestion);
+            
         }
-
-
+        private void ShowQuestion(Question q)
+        {
+            question.Items.Clear();
+            if (q.Q==null)
+            {
+                answerA.Text = "";
+                answerB.Text = "";
+                answerC.Text = "";
+                answerD.Text = "";
+                return;   
+            }
+            question.Items.Add(q.Q);
+            answerA.Text = q.Answers[0].A;
+            answerB.Text = q.Answers[1].A;
+            answerC.Text = q.Answers[2].A;
+            answerD.Text = q.Answers[3].A;
+        }
+        private bool CheckAnswer(string a) 
+        {
+            if (a==q.Correct.A) 
+            {
+                return true;
+            }
+            return false;
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
+            q = scene.Next();
+            ShowQuestion(q);
         }
 
         private void timerQuestion_Tick(object sender, EventArgs e)
@@ -30,8 +59,62 @@ namespace Project_VP
             if (progressBarQuestion.Value==0)
             {
                 timerQuestion.Stop();
-                //TODO: add "you lose" function
+                scene.Lose();
             }
         }
+
+        private void answerA_Click(object sender, EventArgs e)
+        {
+            if (CheckAnswer(answerA.Text))
+            {
+                q = scene.Next();
+                ShowQuestion(q);
+            }
+            else 
+            {
+                scene.Lose();
+            }
+        }
+
+        private void answerB_Click(object sender, EventArgs e)
+        {
+            if (CheckAnswer(answerB.Text))
+            {
+                q = scene.Next();
+                ShowQuestion(q);
+            }
+            else
+            {
+                scene.Lose();
+            }
+        }
+
+        private void answerC_Click(object sender, EventArgs e)
+        {
+            if (CheckAnswer(answerC.Text))
+            {
+                q = scene.Next();
+                ShowQuestion(q);
+            }
+            else
+            {
+                scene.Lose();
+            }
+        }
+
+        private void answerD_Click(object sender, EventArgs e)
+        {
+            if (CheckAnswer(answerD.Text))
+            {
+                q = scene.Next();
+                ShowQuestion(q);
+            }
+            else
+            {
+                scene.Lose();
+            }
+        }
+
+
     }
 }
