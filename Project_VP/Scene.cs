@@ -14,7 +14,7 @@ namespace Project_VP
     class Scene
     {
         // guestion:answer1,1;answer2,0;answer3,0;answer4,0; 
-        public List<Question> questions = new List<Question>();
+        private List<Question> questions = new List<Question>();
         private int num_q=-1;
         CheckedListBox prizeList;
         ProgressBar progressBarQuestion;
@@ -30,7 +30,7 @@ namespace Project_VP
 
             /* PROMPT:
             "Generate 15 general knowledge quiz questions in this exact format:
-            "[Question text]?:[AnswerA],[1 or 0];[AnswerB],[1 or 0];[AnswerC],[1 or 0];[AnswerD],[1 or 0];"
+            \"[Question text]?:[AnswerA],[1 or 0];[AnswerB],[1 or 0];[AnswerC],[1 or 0];[AnswerD],[1 or 0];\"
             Only one answer should be correct(marked with,1), and the others incorrect(marked with,0).
             Return it as a JSON list of strings."
             */
