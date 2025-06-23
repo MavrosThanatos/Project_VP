@@ -22,9 +22,12 @@ namespace Project_VP
         Timer timerQuestion;
         public End End { get; set; } = new End();
         public Swap SwapQuestion { get; set; }
+        public Wordle WordleQuestion { get; set; }
         public int WinAmount { get; set; }
         private int[] amounts = { 0, 1000, 32000, 1000000 };
         private int rank = 0;
+
+        private static string fileName = "../../questions.json";
         public Scene()
         {
             AddQuestions();
@@ -41,7 +44,6 @@ namespace Project_VP
             */
 
             //From file
-            string fileName = "../../questions.json";
             string jsonString = File.ReadAllText(fileName);
             List<string> questionsArray = JsonSerializer.Deserialize<List<string>>(jsonString);
             List<string> chosenQuestions = GetRandomItems(questionsArray, 16);
@@ -147,6 +149,14 @@ namespace Project_VP
             SwapQuestion.ShowDialog();
             timerQuestion.Start();
             return SwapQuestion.Correct;
+        }
+        public bool Worlde() 
+        {
+            WordleQuestion = new Wordle();
+            timerQuestion.Stop();
+            WordleQuestion.ShowDialog();
+            timerQuestion.Start();
+            return WordleQuestion.Correct;
         }
 
     }

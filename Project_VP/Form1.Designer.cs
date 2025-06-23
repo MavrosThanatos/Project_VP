@@ -159,6 +159,7 @@
             this.joker1.TabIndex = 8;
             this.joker1.Text = "⌛";
             this.joker1.UseVisualStyleBackColor = false;
+            this.joker1.Click += new System.EventHandler(this.joker1_Click);
             // 
             // joker2
             // 

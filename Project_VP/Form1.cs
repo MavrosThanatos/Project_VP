@@ -117,12 +117,27 @@ namespace Project_VP
 
         private void button1_Click(object sender, EventArgs e)
         {
+            button1.Enabled = false;
             if (scene.Swap())
             {
                 q = scene.Next();
                 ShowQuestion(q);
             }
             else 
+            {
+                scene.EndQuiz();
+            }
+        }
+
+        private void joker1_Click(object sender, EventArgs e)
+        {
+            joker1.Enabled = false;
+            if (scene.Worlde())
+            {
+                q = scene.Next();
+                ShowQuestion(q);
+            }
+            else
             {
                 scene.EndQuiz();
             }
