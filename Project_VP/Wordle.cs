@@ -89,6 +89,7 @@ namespace Project_VP
                 await Task.Delay(1000);
                 ReturnAnswer();
             }
+            progressBar1.Value = 100;
         }
 
         private void SetCorrectCharacters(int[] contains, string guess)
