@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Project_VP
 {
-    class Answer 
+    public class Answer 
     {
         public string A { get; set; }
         public bool isCorrect { get; set; }
@@ -19,7 +19,7 @@ namespace Project_VP
             isCorrect = a.Split(',')[1]=="1"?true:false;
         }
     }
-    class Question
+    public class Question
     {
         static Random rng = new Random();
         public string Q { get; set; }
@@ -42,7 +42,6 @@ namespace Project_VP
         }
         public Question(string q)
         {
-            Console.WriteLine(q);
             if (q=="")
             {
                 return;

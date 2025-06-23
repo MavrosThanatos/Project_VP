@@ -30,3 +30,4 @@ C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\bin\Debug\Syst
 C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\bin\Debug\System.ValueTuple.xml
 C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Debug\Project_VP.csproj.Up2Date
 C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Debug\Project_VP.End.resources
+C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Debug\Project_VP.Swap.resources

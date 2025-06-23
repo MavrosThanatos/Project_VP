@@ -115,6 +115,17 @@ namespace Project_VP
             }
         }
 
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (scene.Swap())
+            {
+                q = scene.Next();
+                ShowQuestion(q);
+            }
+            else 
+            {
+                scene.EndQuiz();
+            }
+        }
     }
 }

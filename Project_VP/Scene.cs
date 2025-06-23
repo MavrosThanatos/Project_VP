@@ -15,11 +15,13 @@ namespace Project_VP
     {
         // guestion:answer1,1;answer2,0;answer3,0;answer4,0; 
         private List<Question> questions = new List<Question>();
+        private Question swap;
         private int num_q=-1;
         CheckedListBox prizeList;
         ProgressBar progressBarQuestion;
         Timer timerQuestion;
         public End End { get; set; } = new End();
+        public Swap SwapQuestion { get; set; }
         public int WinAmount { get; set; }
         private int[] amounts = { 0, 1000, 32000, 1000000 };
         private int rank = 0;
@@ -42,11 +44,18 @@ namespace Project_VP
             string fileName = "../../questions.json";
             string jsonString = File.ReadAllText(fileName);
             List<string> questionsArray = JsonSerializer.Deserialize<List<string>>(jsonString);
-            List<string> chosenQuestions = GetRandomItems(questionsArray, 15);
+            List<string> chosenQuestions = GetRandomItems(questionsArray, 16);
             foreach (var item in chosenQuestions)
             {
-                Question q = new Question(item);
-                questions.Add(q);
+                if (swap==null)
+                {
+                    swap = new Question(item);
+                }
+                else
+                {
+                    Question q = new Question(item);
+                    questions.Add(q);
+                }    
             }
 
             /*Question q = new Question("Question 1?:AnswerA,1;AnswerB,0;AnswerC,0;AnswerD,0;");
@@ -129,6 +138,15 @@ namespace Project_VP
                 return questions[num_q];
             }
             
+        }
+
+        public bool Swap() 
+        {
+            SwapQuestion = new Swap(swap);
+            timerQuestion.Stop();
+            SwapQuestion.ShowDialog();
+            timerQuestion.Start();
+            return SwapQuestion.Correct;
         }
 
     }
