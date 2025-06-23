@@ -19,10 +19,13 @@ namespace Project_VP
         CheckedListBox prizeList;
         ProgressBar progressBarQuestion;
         Timer timerQuestion;
+        public End End { get; set; } = new End();
+        public int WinAmount { get; set; }
+        private int[] amounts = { 0, 1000, 32000, 1000000 };
+        private int rank = 0;
         public Scene()
         {
             AddQuestions();
-            
         }
         private void AddQuestions() 
         {
@@ -95,23 +98,24 @@ namespace Project_VP
             this.progressBarQuestion = progressBarQuestion;
             this.timerQuestion = timerQuestion;
         }
-        public void Win() 
-        {
-            this.timerQuestion.Stop();
-            MessageBox.Show("WIN");
-        }
-        public void Lose() 
+        public void EndQuiz() 
         {  
             this.timerQuestion.Stop();
-            MessageBox.Show("LOSE");
+            End.Won = false;
+            End.Amount = WinAmount;
+            End.Show();
         }
         public Question Next() 
         {
             num_q++;
             progressBarQuestion.Value = 100;
+            if (num_q % 5 == 0)
+            { 
+                WinAmount = amounts[rank++];
+            }
             if (num_q == questions.Count)
             {
-                Win();
+                EndQuiz();
                 return new Question("");
             }
             else

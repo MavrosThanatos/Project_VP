@@ -59,7 +59,7 @@ namespace Project_VP
             if (progressBarQuestion.Value==0)
             {
                 timerQuestion.Stop();
-                scene.Lose();
+                scene.EndQuiz();
             }
         }
 
@@ -72,7 +72,7 @@ namespace Project_VP
             }
             else 
             {
-                scene.Lose();
+                scene.EndQuiz();
             }
         }
 
@@ -85,7 +85,7 @@ namespace Project_VP
             }
             else
             {
-                scene.Lose();
+                scene.EndQuiz();
             }
         }
 
@@ -98,7 +98,7 @@ namespace Project_VP
             }
             else
             {
-                scene.Lose();
+                scene.EndQuiz();
             }
         }
 
@@ -111,7 +111,7 @@ namespace Project_VP
             }
             else
             {
-                scene.Lose();
+                scene.EndQuiz();
             }
         }
 

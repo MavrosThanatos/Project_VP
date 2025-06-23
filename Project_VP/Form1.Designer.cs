@@ -50,10 +50,10 @@
             this.answerA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.answerA.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answerA.ForeColor = System.Drawing.Color.White;
-            this.answerA.Location = new System.Drawing.Point(44, 280);
-            this.answerA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.answerA.Location = new System.Drawing.Point(59, 345);
+            this.answerA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.answerA.Name = "answerA";
-            this.answerA.Size = new System.Drawing.Size(314, 72);
+            this.answerA.Size = new System.Drawing.Size(419, 89);
             this.answerA.TabIndex = 1;
             this.answerA.Text = "A";
             this.answerA.UseVisualStyleBackColor = false;
@@ -65,10 +65,10 @@
             this.answerC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.answerC.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answerC.ForeColor = System.Drawing.Color.White;
-            this.answerC.Location = new System.Drawing.Point(370, 280);
-            this.answerC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.answerC.Location = new System.Drawing.Point(493, 345);
+            this.answerC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.answerC.Name = "answerC";
-            this.answerC.Size = new System.Drawing.Size(314, 72);
+            this.answerC.Size = new System.Drawing.Size(419, 89);
             this.answerC.TabIndex = 2;
             this.answerC.Text = "C";
             this.answerC.UseVisualStyleBackColor = false;
@@ -80,10 +80,10 @@
             this.answerD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.answerD.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answerD.ForeColor = System.Drawing.Color.White;
-            this.answerD.Location = new System.Drawing.Point(370, 356);
-            this.answerD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.answerD.Location = new System.Drawing.Point(493, 438);
+            this.answerD.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.answerD.Name = "answerD";
-            this.answerD.Size = new System.Drawing.Size(314, 72);
+            this.answerD.Size = new System.Drawing.Size(419, 89);
             this.answerD.TabIndex = 4;
             this.answerD.Text = "D";
             this.answerD.UseVisualStyleBackColor = false;
@@ -95,10 +95,10 @@
             this.answerB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.answerB.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answerB.ForeColor = System.Drawing.Color.White;
-            this.answerB.Location = new System.Drawing.Point(44, 356);
-            this.answerB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.answerB.Location = new System.Drawing.Point(59, 438);
+            this.answerB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.answerB.Name = "answerB";
-            this.answerB.Size = new System.Drawing.Size(314, 72);
+            this.answerB.Size = new System.Drawing.Size(419, 89);
             this.answerB.TabIndex = 3;
             this.answerB.Text = "B";
             this.answerB.UseVisualStyleBackColor = false;
@@ -108,10 +108,10 @@
             // 
             this.progressBarQuestion.BackColor = System.Drawing.Color.White;
             this.progressBarQuestion.ForeColor = System.Drawing.Color.Navy;
-            this.progressBarQuestion.Location = new System.Drawing.Point(44, 436);
-            this.progressBarQuestion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBarQuestion.Location = new System.Drawing.Point(59, 537);
+            this.progressBarQuestion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBarQuestion.Name = "progressBarQuestion";
-            this.progressBarQuestion.Size = new System.Drawing.Size(640, 39);
+            this.progressBarQuestion.Size = new System.Drawing.Size(853, 48);
             this.progressBarQuestion.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBarQuestion.TabIndex = 5;
             this.progressBarQuestion.Value = 100;
@@ -139,10 +139,10 @@
             "$300",
             "$200",
             "$100"});
-            this.prizeList.Location = new System.Drawing.Point(739, 41);
-            this.prizeList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.prizeList.Location = new System.Drawing.Point(985, 50);
+            this.prizeList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.prizeList.Name = "prizeList";
-            this.prizeList.Size = new System.Drawing.Size(238, 434);
+            this.prizeList.Size = new System.Drawing.Size(317, 530);
             this.prizeList.TabIndex = 7;
             this.prizeList.UseTabStops = false;
             // 
@@ -152,10 +152,10 @@
             this.joker1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.joker1.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.joker1.ForeColor = System.Drawing.Color.White;
-            this.joker1.Location = new System.Drawing.Point(739, 5);
-            this.joker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.joker1.Location = new System.Drawing.Point(985, 6);
+            this.joker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.joker1.Name = "joker1";
-            this.joker1.Size = new System.Drawing.Size(30, 32);
+            this.joker1.Size = new System.Drawing.Size(40, 39);
             this.joker1.TabIndex = 8;
             this.joker1.Text = "⌛";
             this.joker1.UseVisualStyleBackColor = false;
@@ -166,10 +166,10 @@
             this.joker2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.joker2.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.joker2.ForeColor = System.Drawing.Color.White;
-            this.joker2.Location = new System.Drawing.Point(773, 5);
-            this.joker2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.joker2.Location = new System.Drawing.Point(1031, 6);
+            this.joker2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.joker2.Name = "joker2";
-            this.joker2.Size = new System.Drawing.Size(80, 32);
+            this.joker2.Size = new System.Drawing.Size(107, 39);
             this.joker2.TabIndex = 9;
             this.joker2.Text = "🃏🃏";
             this.joker2.UseVisualStyleBackColor = false;
@@ -180,10 +180,10 @@
             this.joker3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.joker3.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.joker3.ForeColor = System.Drawing.Color.White;
-            this.joker3.Location = new System.Drawing.Point(857, 5);
-            this.joker3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.joker3.Location = new System.Drawing.Point(1143, 6);
+            this.joker3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.joker3.Name = "joker3";
-            this.joker3.Size = new System.Drawing.Size(83, 32);
+            this.joker3.Size = new System.Drawing.Size(111, 39);
             this.joker3.TabIndex = 10;
             this.joker3.Text = "X O X";
             this.joker3.UseVisualStyleBackColor = false;
@@ -194,10 +194,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(947, 5);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(1263, 6);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 32);
+            this.button1.Size = new System.Drawing.Size(40, 39);
             this.button1.TabIndex = 11;
             this.button1.Text = "🔄";
             this.button1.UseVisualStyleBackColor = false;
@@ -205,7 +205,6 @@
             // timerQuestion
             // 
             this.timerQuestion.Enabled = true;
-            this.timerQuestion.Interval = 300;
             this.timerQuestion.Tick += new System.EventHandler(this.timerQuestion_Tick);
             // 
             // question
@@ -215,21 +214,21 @@
             this.question.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.question.ForeColor = System.Drawing.Color.White;
             this.question.FormattingEnabled = true;
-            this.question.ItemHeight = 27;
-            this.question.Location = new System.Drawing.Point(44, 188);
-            this.question.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.question.ItemHeight = 35;
+            this.question.Location = new System.Drawing.Point(59, 231);
+            this.question.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.question.Name = "question";
-            this.question.Size = new System.Drawing.Size(641, 83);
+            this.question.Size = new System.Drawing.Size(854, 72);
             this.question.TabIndex = 12;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(984, 494);
+            this.ClientSize = new System.Drawing.Size(1312, 608);
             this.Controls.Add(this.question);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.joker3);
@@ -243,7 +242,7 @@
             this.Controls.Add(this.answerA);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WHO WANTS TO BE A MILLIONAIRE?";
