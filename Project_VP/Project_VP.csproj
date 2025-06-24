@@ -104,6 +104,12 @@
     <Compile Include="Swap.Designer.cs">
       <DependentUpon>Swap.cs</DependentUpon>
     </Compile>
+    <Compile Include="TicTacToe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicTacToe.Designer.cs">
+      <DependentUpon>TicTacToe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Wordle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     </Compile>
     <EmbeddedResource Include="Swap.resx">
       <DependentUpon>Swap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicTacToe.resx">
+      <DependentUpon>TicTacToe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Wordle.resx">
       <DependentUpon>Wordle.cs</DependentUpon>

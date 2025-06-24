@@ -23,6 +23,7 @@ namespace Project_VP
         public End End { get; set; } = new End();
         public Swap SwapQuestion { get; set; }
         public Wordle WordleQuestion { get; set; }
+        public TicTacToe TicTacToeQuestion { get; set; }
         public int WinAmount { get; set; }
         private int[] amounts = { 0, 1000, 32000, 1000000 };
         private int rank = 0;
@@ -157,6 +158,14 @@ namespace Project_VP
             WordleQuestion.ShowDialog();
             timerQuestion.Start();
             return WordleQuestion.Correct;
+        }
+        public bool TicTacToe() 
+        {
+            TicTacToeQuestion = new TicTacToe();
+            timerQuestion.Stop();
+            TicTacToeQuestion.ShowDialog();
+            timerQuestion.Start();
+            return TicTacToeQuestion.Correct;
         }
 
     }

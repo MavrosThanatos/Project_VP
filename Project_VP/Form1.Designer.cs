@@ -188,6 +188,7 @@
             this.joker3.TabIndex = 10;
             this.joker3.Text = "X O X";
             this.joker3.UseVisualStyleBackColor = false;
+            this.joker3.Click += new System.EventHandler(this.joker3_Click);
             // 
             // button1
             // 

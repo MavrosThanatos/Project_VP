@@ -142,5 +142,19 @@ namespace Project_VP
                 scene.EndQuiz();
             }
         }
+
+        private void joker3_Click(object sender, EventArgs e)
+        {
+            joker3.Enabled = false;
+            if (scene.TicTacToe())
+            {
+                q = scene.Next();
+                ShowQuestion(q);
+            }
+            else
+            {
+                scene.EndQuiz();
+            }
+        }
     }
 }
