@@ -82,6 +82,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeBreaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeBreaker.Designer.cs">
+      <DependentUpon>CodeBreaker.cs</DependentUpon>
+    </Compile>
     <Compile Include="End.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     <Compile Include="Wordle.Designer.cs">
       <DependentUpon>Wordle.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CodeBreaker.resx">
+      <DependentUpon>CodeBreaker.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="End.resx">
       <DependentUpon>End.cs</DependentUpon>
     </EmbeddedResource>

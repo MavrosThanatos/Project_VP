@@ -24,6 +24,7 @@ namespace Project_VP
         public Swap SwapQuestion { get; set; }
         public Wordle WordleQuestion { get; set; }
         public TicTacToe TicTacToeQuestion { get; set; }
+        public CodeBreaker CodeBreakerQuestion { get; set; }
         public int WinAmount { get; set; }
         private int[] amounts = { 0, 1000, 32000, 1000000 };
         private int rank = 0;
@@ -113,7 +114,7 @@ namespace Project_VP
         public void EndQuiz() 
         {  
             this.timerQuestion.Stop();
-            End.Won = false;
+            End.Won = num_q==15?true:false;
             End.Amount = WinAmount;
             End.Show();
         }
@@ -127,6 +128,7 @@ namespace Project_VP
             }
             if (num_q == questions.Count)
             {
+                
                 EndQuiz();
                 return new Question("");
             }
@@ -166,6 +168,14 @@ namespace Project_VP
             TicTacToeQuestion.ShowDialog();
             timerQuestion.Start();
             return TicTacToeQuestion.Correct;
+        }
+        public bool CodeBreaker() 
+        {
+            CodeBreakerQuestion = new CodeBreaker();
+            timerQuestion.Stop();
+            CodeBreakerQuestion.ShowDialog();
+            timerQuestion.Start();
+            return CodeBreakerQuestion.Correct;
         }
 
     }

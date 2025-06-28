@@ -172,8 +172,9 @@
             this.joker2.Name = "joker2";
             this.joker2.Size = new System.Drawing.Size(107, 39);
             this.joker2.TabIndex = 9;
-            this.joker2.Text = "🃏🃏";
+            this.joker2.Text = " ? ? ? ";
             this.joker2.UseVisualStyleBackColor = false;
+            this.joker2.Click += new System.EventHandler(this.joker2_Click);
             // 
             // joker3
             // 

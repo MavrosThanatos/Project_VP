@@ -122,7 +122,7 @@ namespace Project_VP
                 {
                     CheckAnswer(textBoxInput.Text);
                     textBoxInput.Text = "";
-                    e.Handled = true;
+                    //e.Handled = true;
                 }
             }
         }

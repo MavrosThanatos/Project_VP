@@ -33,3 +33,4 @@ C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Debug\Proj
 C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Debug\Project_VP.Swap.resources
 C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Debug\Project_VP.Wordle.resources
 C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Debug\Project_VP.TicTacToe.resources
+C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Debug\Project_VP.CodeBreaker.resources
