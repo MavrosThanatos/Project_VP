@@ -29,3 +29,8 @@ C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Release\Pr
 C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Release\Project_VP.csproj.Up2Date
 C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Release\Project_VP.exe
 C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Release\Project_VP.pdb
+C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Release\Project_VP.CodeBreaker.resources
+C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Release\Project_VP.End.resources
+C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Release\Project_VP.Swap.resources
+C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Release\Project_VP.TicTacToe.resources
+C:\Users\hrist\Desktop\Finki\IV semester\VP\Project_VP\Project_VP\obj\Release\Project_VP.Wordle.resources
